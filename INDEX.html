@@ -94,34 +94,29 @@
         </div>
       </div>
       <div class="row">
-        <div class="container col l9 #ffeb3b yellow white-text">
+        <div class="card Comentarios #ffeb3b yellow white-text col s9" style="margin-left:10px;">
+          <h4 class="white-text">Deja tu comentario</h5>
+          <form action="index.html">
             <div class="row">
-              <div class="col l6">
-                <h5 class="white-text">Deja tu comentario</h5>
-                <div class="input-field col s6">
-                  <i class="material-icons">account_circle<input placeholder="Nombre" type="text" class="validate"></i>
-                </div>
-                <div class="input-field col s6">
-                  <i class="material-icons">email<input placeholder="Correo electrónico" type="text" class="validate"></i>
-                </div>
+              <div class="input-field col m6 s12">
+                <i class="material-icons prefix">account_circle</i>
+                <input id="Nombre" type="text" class="validate" required>
+              </div>
+              <div class="input-field col m6 s12">
+                <i class="material-icons prefix">email</i>
+                <input id="Correo" type="text" class="validate" required>
+              </div>
+              <div class="input-field col s12">
+                <i class="material-icons prefix">comment</i>
+                <input id="comentario" type="text" class="validate" required>
+              </div>
+              <div class="col s12">
+                <button class="btn waves-effect waves-light right orange"type="submit" name="action">Enviar
+                <i class="material-icons right">send</i></button>
               </div>
             </div>
-            <div class="row">
-              <div class="col l6">
-                <div class="input-field col s6">
-                  <i class="material-icons">comment<input placeholder="Comentarios" type="text" class="validate">
-                </div></i>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col l6">
-                <div class="input-field col s6 right">
-                  <i class="material-icons">comment<input placeholder="Comentarios" type="text" class="validate">
-                </div></i>
-              </div>
-            </div>
-
-          </div>
+          </form>
+        </div>
 
       </div>
     </div>
