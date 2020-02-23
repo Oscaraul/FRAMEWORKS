@@ -13,12 +13,20 @@
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <header>
       <nav class="nav-extended #ffeb3b yellow white-text">
-        <div class="nav-wrapper">
+        <div class="nav-wrapper hide-on-small-only">
           <ul class="right">
             <li><a class="waves-effect waves-light btn">INICIO<i class="material-icons left">house</i></a></li>
             <li><a class="waves-effect waves-light btn">ESTUVE EN...<i class="material-icons left">location_on</i></a></li>
             <li><a class="waves-effect waves-light btn">MEJORES VIAJES<i class="material-icons left">star</i></a></li>
             <li><a class="waves-effect waves-light btn">RECOMENDACIONES<i class="material-icons left">announcement</i></a></li>
+          </ul>
+        </div>
+        <div class="nav-wrapper hide-on-med-and-up">
+          <ul class="right">
+            <li><a class="waves-effect waves-light btn"><i class="material-icons left">house</i></a></li>
+            <li><a class="waves-effect waves-light btn"><i class="material-icons left">location_on</i></a></li>
+            <li><a class="waves-effect waves-light btn"><i class="material-icons left">star</i></a></li>
+            <li><a class="waves-effect waves-light btn"><i class="material-icons left">announcement</i></a></li>
           </ul>
         </div>
         <div class="nav-content #ffeb3b yellow white-text">
@@ -35,7 +43,7 @@
     </header>
 
     <div class="row">
-      <div class="col l1 cuadros">
+      <div class="col l1 cuadros hide-on-small-only">
         <ul id="redessociales">
           <li style="margin-top: 50px;" class="icono_redes"><a href="#" class="waves-effect waves-light"><img class="socialnet" src="IMG/facebook.svg" alt=""></a></li>
           <li class="icono_redes"><a href="#" class="waves-effect waves-light"><img class="socialnet" src="IMG/instagram.svg" alt=""></a</li>
@@ -85,12 +93,14 @@
               <img src="img/Foto2.jpg" class="circle" style="width:80%;">
             </div>
             <div>
-              <p>Perfil del Autor</p>
+              <h2>Oscar</h2>
+              <hr>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
           </aside>
         </div>
       </div>
+
       <div class="row">
         <div class="card Comentarios #ffeb3b yellow white-text col s9" style="margin-left:10px;">
           <h4 class="white-text">Deja tu comentario</h5>
