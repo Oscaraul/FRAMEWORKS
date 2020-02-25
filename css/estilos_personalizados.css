@@ -5,15 +5,19 @@ body {
   background-image: url("../img/Fondo7.jpg");
 }
 
-.logo-img{
-  width: 200px;
-  margin-bottom: -60px;
-  margin-left: 120px;
-  border: 1px solid red;
-  display: inline;
-  border-radius: 20px;
-  background: white;
+header{
+  background-color: #282659;
 }
+header.container.row{
+  margin-bottom: 0;
+  }
+}
+
+.logo{
+  margin-top: 10px !important;
+  width: 100%;
+}
+
 
 .socialnet{
   width: 50px;
