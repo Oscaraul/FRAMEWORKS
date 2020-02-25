@@ -15,27 +15,10 @@ header.container.row{
 
 .logo{
   margin-top: 10px !important;
-  width: 100%;
+  width: 0%;
 }
 
 
-.socialnet{
-  width: 50px;
-}
-
-.cuadros{
-
-  border-color: white;
-}
-
-.icono_redes{
-  text-align: center;
-  margin: 15px;
-}
-
-.cuadros{
-
-}
 
 @media only screen and (max-width: 768px) {
   header{
