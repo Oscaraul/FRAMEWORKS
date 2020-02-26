@@ -1,3 +1,4 @@
+/* ------Generales------ */
 body {
   background-size: cover;
   background-attachment: fixed;
@@ -8,23 +9,39 @@ body {
 .barra{
   background-color: #282659;
 }
+/* ------Envabezado------ */
+header{
+  background-color: #282659;
+}
+
+header.container.row{
+  margin-bottom: 0;
+  }
 
 .logo{
   margin-top: 10px !important;
   width: 100%;
 }
 
-header.container.row{
-  margin-bottom: 0;
-  background-color: #282659; 
+@media all and (min-width: 768px) {
+  .logo{
+    margin-bottom: -75px;
   }
-
-
-
-
-@media only screen and (max-width: 768px) {
-  header{
-  width:110% !important;
-  margin-left:10%;
 }
+
+.botones_menu{
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+/* ------Redes Sociales y Galeria------ */
+.red_social{
+  max-width: 90%;
+}
+
+.slogan{
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin-top: 20px;
 }
