@@ -79,69 +79,74 @@
       </div>
     </section>
 
-      <div class="row">
-        <div class="col l9">
-          <div class="card">
-            <div class="row" style="margin-left:10px;">
-              <img style="margin-top:20px;" class="col s3" src="img/Foto1.jpg">
-              <h4 style="font-style: italic; padding-top:20px;">Los viajes de Oscar y Marilly</h4>
-              <div class="chip" style="margin-top:20px;" >
-                <i class="tiny material-icons right" style="padding-top:8px;">date_range</i>18 de Febrero de 2020
-              </div>
-              <div class="chip" style="margin-top:20px;" >
-                <a href="#"><i style="padding-top:8px;" class="tiny material-icons right">location_on</i>Iquitos IQT,
-                  PERU</a>
-              </div>
-              <div class="text-responsive" style="font-size:18px;">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+    <section class="Blog">
+      <div class="container">
+        <div class="row">
+          <div class="col l9">   <!--Columna-Articulo -->
+            <article class="card white articulo"><!--Articulo 1-->
+              <img  src="img/Foto1.jpg" class="Foto_Articulo left">
+              <h3 class="Titulo_Articulo">Los viajes de Oscar y Marilly</h3>
+              <p>
+                <div class="chip">
+                  <i class="material-icons chip-iconos">date_range</i>18 de Febrero de 2020
+                </div>
+                <div class="chip">
+                  <a href="#"><i class="material-icons chip-iconos">location_on</i>Iquitos IQT,
+                    PERU</a>
+                </div>
+              </p>
+              <div style="font-size:18px; text-align:justify;">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
                   dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
                   ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
                   fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
                   mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </br> </br>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
               </div>
+            </article>
+            <!--Comentario 1-->
+            <div class="card Comentarios #ffeb3b yellow white-text" style="padding:20px;">
+                <h4 class="white-text">Deja tu comentario</h4>
+                <form action="index.html">
+                  <div class="row">
+                    <div class="input-field col m6 s12">
+                      <i class="material-icons prefix">account_circle</i>
+                      <input id="Nombre" type="text" class="validate" required>
+                    </div>
+                    <div class="input-field col m6 s12">
+                      <i class="material-icons prefix">email</i>
+                      <input id="Correo" type="text" class="validate" required>
+                    </div>
+                    <div class="input-field col s12">
+                      <i class="material-icons prefix">comment</i>
+                      <input id="comentario" type="text" class="validate" required>
+                    </div>
+                    <div class="col s12">
+                      <button class="btn waves-effect waves-light right orange"type="submit" name="action">Enviar
+                      <i class="material-icons right">send</i></button>
+                    </div>
+                  </div>
+                </form>
             </div>
           </div>
-        </div>
-        <div class="col l3">
-          <aside class="card white center-align">
-            <div class="Foto2 responsive">
-              <img src="img/Foto2.jpg" class="circle" style="width:80%;">
-            </div>
-            <div>
-              <h2>Oscar</h2>
-              <hr>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-          </aside>
+           <!--Barra lateral -->
+          <div class="col l3">
+            <aside class="card white center-align" style="padding:20px;">
+              <div class="responsive-img">
+                <img src="img/Foto2.jpg" class="circle" style="width:100%;">
+              </div>
+              <div>
+                <h2>Oscar</h2>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </aside>
+          </div>
         </div>
       </div>
+    </section>
 
-      <div class="row">
-        <div class="card Comentarios #ffeb3b yellow white-text col s12 m9" style="margin-left:10px;">
-          <h4 class="white-text">Deja tu comentario</h5>
-          <form action="index.html">
-            <div class="row">
-              <div class="input-field col m6 s12">
-                <i class="material-icons prefix">account_circle</i>
-                <input id="Nombre" type="text" class="validate" required>
-              </div>
-              <div class="input-field col m6 s12">
-                <i class="material-icons prefix">email</i>
-                <input id="Correo" type="text" class="validate" required>
-              </div>
-              <div class="input-field col s12">
-                <i class="material-icons prefix">comment</i>
-                <input id="comentario" type="text" class="validate" required>
-              </div>
-              <div class="col s12">
-                <button class="btn waves-effect waves-light right orange"type="submit" name="action">Enviar
-                <i class="material-icons right">send</i></button>
-              </div>
-            </div>
-          </form>
-        </div>
 
-      </div>
+
     </div>
   </body>
 </html>

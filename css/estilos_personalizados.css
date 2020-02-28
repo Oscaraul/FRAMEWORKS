@@ -45,3 +45,33 @@ header.container.row{
   color: white;
   margin-top: 20px;
 }
+
+/* ------Blog------ */
+.articulo{
+  padding: 20px;
+}
+
+.Foto_Articulo{
+  max-width: 100%;
+}
+
+@media all and (min-width:768px){
+  .thumb{
+    max-width: 40%;
+    padding-right:10px;
+  }
+}
+
+.Titulo_Articulo{
+  font-size: 26px;
+  margin-top: 0;
+  font-weight: bold;
+  color: #282659;
+}
+
+.chip-iconos{
+  float: right;
+  font-size: 16px;
+  line-height: 32px;
+  padding-left: 8px;
+}
